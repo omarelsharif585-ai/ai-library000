@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Library</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="logo.png" href="logo.png" />
+</head>
+<body class="light">
+  <button class="theme-toggle" onclick="toggleTheme()">🌙 Dark mode</button>
+  <header>
+    <h1>AI Library</h1>
+    <input type="text" id="searchInput" placeholder="Search" />
+  </header>
+
+  <div class="filters">
+    <button class="filter-btn" data-category="text">✏️ Generate texts</button>
+    <button class="filter-btn" data-category="image">🖼️ Generate images</button>
+    <button class="filter-btn" data-category="audio">🎤 Voice conversion</button>
+  </div>
+
+  <!-- إضافة نموذج صورة لعرض أدوات الموقع -->
+  <div class="tools-sample" style="text-align:center; margin: 20px 0;">
+    <img
+      src="photo1.webp"
+      alt="نموذج أدوات الموقع"
+      style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"
+    />
+  </div>
+
+  <main id="toolsContainer"></main>
+
+  <script src="script.js"></script>
+
+<div class="ad-sidebar left">
+  <div class="ad-slot">
+    <img src="Ad1.png" alt="إعلان 1" style="width: 100%; height: auto; border-radius: 8px;" />
+  </div>
+  <div class="Ad-slot">
+    <img src="ad2.png" alt="إعلان 2" style="width: 100%; height: auto; border-radius: 8px;" />
+  </div>
+  <div class="Ad-slot">
+    <img src="ad3.png" alt="إعلان 3" style="width: 100%; height: auto; border-radius: 8px;" />
+  </div>
+  <div class="ad-slot">
+    <img src="Ad1.png" alt="إعلان 1" style="width: 100%; height: auto; border-radius: 8px;" />
+  </div>
+  <div class="Ad-slot">
+    <img src="ad2.png" alt="إعلان 2" style="width: 100%; height: auto; border-radius: 8px;" />
+  </div>
+  <div class="Ad-slot">
+    <img src="ad3.png" alt="إعلان 3" style="width: 100%; height: auto; border-radius: 8px;" />
+  </div>
+</div>
+
+<div class="ad-sidebar right">
+  <div class="ad-slot">
+    <img src="Ad4.png" alt="إعلان 4" style="width: 100%; height: auto; border-radius: 8px;" />
+  </div>
+  <div class="Ad-slot">
+    <img src="ad5.png" alt="إعلان 5" style="width: 100%; height: auto; border-radius: 8px;" />
+  </div>
+  <div class="Ad-slot">
+    <img src="ad6.png" alt="إعلان 6" style="width: 100%; height: auto; border-radius: 8px;" />
+  </div>
+  <div class="ad-slot">
+    <img src="Ad4.png" alt="إعلان 4" style="width: 100%; height: auto; border-radius: 8px;" />
+  </div>
+  <div class="Ad-slot">
+    <img src="ad5.png" alt="إعلان 5" style="width: 100%; height: auto; border-radius: 8px;" />
+  </div>
+  <div class="Ad-slot">
+    <img src="ad6.png" alt="إعلان 6" style="width: 100%; height: auto; border-radius: 8px;" />
+  </div>
+</div>
+
+
+ <div class="tools">
+  <div class="card">
+    <h3>ChatGPT</h3>
+    <img src="chatgpt.png" alt="ChatGPT Logo" style="width: 60px; height: auto; margin: 10px auto;" />
+    <p>Writing articles, auto-responding to customers, and creating marketing content.</p>
+    <a href="https://chatgpt.com/">Visit the website</a>
+  </div>
+  <div class="card">
+    <h3>Deepseek</h3>
+    <img src="Deepseek.png" alt="Deepseek Logo" style="width: 60px; height: auto; margin: 10px auto;" />
+    <p>Create articles, texts, emails, and creative content easily and with minimal effort.</p>
+    <a href="https://www.deepseek.com/en">Visit the website</a>
+  </div>
+  <div class="card">
+    <h3>Araby.ai</h3>
+    <img src="Araby.png" alt="Araby.ai Logo" style="width: 60px; height: auto; margin: 10px auto;" />
+    <p>The power of artificial intelligence is in your hands.</p>
+    <a href="https://www.araby.ai/ar">Visit the website</a>
+  </div>
+</div>
+ <div class="tools">
+  <div class="card">
+    <h3>Gemini</h3>
+    <img src="Gemini.png" alt="ChatGPT Logo" style="width: 60px; height: auto; margin: 10px auto;" />
+    <p>Combines text, images, and possibly other data types to deliver more diverse and powerful AI functionality.</p>
+    <a href="https://gemini.google.com/app?hl=ar">Visit the website</a>
+  </div>
+  <div class="card">
+    <h3>Canva</h3>
+    <img src="Canva.webp" alt="Deepseek Logo" style="width: 60px; height: auto; margin: 10px auto;" />
+    <p>free-to-use online graphic design tool. Use it to create social media posts, presentations, posters, videos, logos</p>
+    <a href="https://www.canva.com/">Visit the website</a>
+  </div>
+  <div class="card">
+    <h3>Murf.ai</h3>
+    <img src="Murf.webp" alt="Araby.ai Logo" style="width: 60px; height: auto; margin: 10px auto;" />
+    <p>Use our low-latency TTS model to create voice AI agents, audio products, training & marketing voiceovers, podcasts, and much more.</p>
+    <a href="https://murf.ai/">Visit the website</a>
+  </div>
+</div>
+<div class="tools">
+  <div class="card">
+    <h3>Lumenor.ai</h3>
+    <img src="Lumenor.png" alt="ChatGPT Logo" style="width: 60px; height: auto; margin: 10px auto;" />
+    <p>Find and download the best AI-generated images, or generate any image based on a prompt.</p>
+    <a href="https://lumenor.ai/ai-generated-images-gallery/">Visit the website</a>
+  </div>
+  <div class="card">
+    <h3>Claude.ai</h3>
+    <img src="Claude.jpg" alt="Deepseek Logo" style="width: 60px; height: auto; margin: 10px auto;" />
+    <p>Keep thinking, solving, and bettering with Claude.</p>
+    <a href="https://claude.ai/login?returnTo=%2F%3F">Visit the website</a>
+  </div>
+  <div class="card">
+    <h3>Perfectessaywriter.ai</h3>
+    <img src="Perfectessaywriter.jpg" alt="Araby.ai Logo" style="width: 60px; height: auto; margin: 10px auto;" />
+    <p>Generate high-quality essays with our AI powered essay writer.</p>
+    <a href="https://www.perfectessaywriter.ai/">Visit the website</a>
+  </div>
+</div>
+
+
+
+  <script>
+  // نختار جميع عناصر السايدبار
+  const adSidebars = document.querySelectorAll('.ad-sidebar');
+
+  adSidebars.forEach(sidebar => {
+    let scrollAmount = 0;
+    const maxScroll = sidebar.scrollHeight - sidebar.clientHeight;
+    const scrollStep = 1; // سرعة التمرير (يمكن تعديلها)
+    const delay = 30; // مدة التأخير بين كل خطوة (كل 30 ملي ثانية)
+
+    function autoScroll() {
+      scrollAmount += scrollStep;
+      if (scrollAmount >= maxScroll) {
+        scrollAmount = 0; // العودة للبداية
+      }
+      sidebar.scrollTop = scrollAmount;
+      setTimeout(autoScroll, delay);
+    }
+
+    // ابدأ التمرير التلقائي
+    autoScroll();
+  });
+</script>
+
+  <script>
+    function toggleTheme() {
+      const body = document.body;
+      body.classList.toggle("dark");
+      body.classList.toggle("light");
+
+      const btn = document.querySelector(".theme-toggle");
+      if (body.classList.contains("dark")) {
+        btn.textContent = "☀️ الوضع الفاتح";
+      } else {
+        btn.textContent = "🌙 الوضع الداكن";
+      }
+    }
+  </script>
+</body>
+</html>
